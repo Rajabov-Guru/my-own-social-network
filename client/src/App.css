@@ -1,0 +1,236 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+.CenterPage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form{
+    width:500px;
+}
+
+.navigate{
+    cursor: pointer;
+    color: blue;
+}
+
+
+.end-message-form{
+    margin: 0px 0px 0px 25px;
+    
+}
+
+.form-title{
+    margin: 0px 0px 40px 0px;
+    
+}
+
+.card-title2{
+    text-align: center;
+}
+
+.btn-bar{
+    margin: 20px 0px 20px 0px;
+    
+    gap:10px;
+}
+
+.info-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:6px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.avatar-sm{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar-x-sm{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bordered{
+    border: 1px solid black;
+}
+
+.acc-body{
+    max-height: 155px;
+    overflow: auto;
+}
+
+.profile-card{
+    position:fixed;
+    box-shadow: 1px 4px 12px 8px rgba(0, 75, 255, 0.19);
+    width: 22rem;
+    padding: 15px 0px 0px 0px;
+}
+.shadowed{
+    box-shadow: 1px 4px 12px 8px rgba(0, 75, 255, 0.19);
+}
+
+.profile-page-body{overflow: auto;
+    margin: 20px 0px 20px 0px;
+    padding: 0px 20px 0px 20px;
+    
+}
+
+.list-item:not(:last-child){
+    margin: 0px 0px 20px 0px; 
+}
+
+.opinion-item:not(:last-child){
+    margin: 0px 0px 20px 0px;
+}
+
+.pr-icon{
+    size: 50px;
+}
+
+.user_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user_card_part{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.page{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.topic-page-header{
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.opinion-item{
+    width: 44rem;
+}
+
+.op-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.agreement-bar{
+    display: flex;
+    gap: 20px;
+}
+
+.feedback-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left-col{
+    margin: 0px 30px 0px 0px;
+    
+}
+
+.toolbar{
+    margin: 20px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.tool-select{
+    max-width: 220px;
+}
+
+.chat{
+    margin: 0 auto;
+    width: 30rem;
+}
+
+.message-area{
+    padding:0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.messages{
+    padding: 0px 10px;
+    margin-top: 15px;
+    overflow: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.new-message{
+    padding: 0px 5px 5px 5px;
+}
+
+.message-wrapper{
+    display: flex;
+    
+}
+
+.message-wrapper.right{
+    justify-content: flex-end;
+}
+
+.message-wrapper.left{
+    justify-content: flex-start;
+}
+
+.message{
+    min-width:50%;
+    border-radius: 15px;
+    
+}
+
+.message-content{
+    padding: 5px 15px;
+}
